@@ -1,0 +1,35 @@
+.image{
+    position: relative;
+}
+
+.text-part h2{
+    position: absolute;
+    width: 378px;
+height: 47px;
+left: 200px;
+top: 286px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 47px;
+color: #FFFFFF;
+z-index: 11;
+}
+.text-part p{
+    position: absolute;
+    width: 327px;
+height: 23px;
+left: 210px;
+top:330px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+z-index: 11;
+}
