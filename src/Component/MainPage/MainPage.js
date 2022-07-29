@@ -6,19 +6,25 @@ import computer from '../../images/Rectangle 2.png'
 const MainPage = () => {
     
         return (
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img  src={computer} class="d-block w-100 image" alt="..."/>
-      <div className='text-part'>
-                        <h2>Computer Engineering</h2>
-                        <p >142,765 Computer Engineers follow this</p>
-                    </div>
-    </div>
-    
-   
-  </div>
-</div>
+          <section className="mainBody">
+          <div>
+            <img
+              className=" w-100"
+              src={computer}
+              alt="banner"
+            />
+           
+          </div>
+          <div className="text_part ">
+            <h2 className="textH2 ">
+            Computer Engineering
+            </h2>
+            <p className="textP ">
+            142,765 Computer Engineers follow this
+            </p>
+         
+          </div>
+        </section>
         );
 };
 
