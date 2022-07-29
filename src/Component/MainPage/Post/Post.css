@@ -3,6 +3,11 @@
 
 border-radius: 4px;
 }
+.card {
+    margin-top: 8px;
+   
+}
+
 #bg-nested-dropdown{
     width: 133px;
 height: 36px;
@@ -44,6 +49,12 @@ color: #000000;
 .share{
     margin-top: 18px;
 }
+.sharetext{
+    display: none !important;
+  margin-top: 18px;
+ 
+  }
+
 .name{
 
 font-family: 'IBM Plex Sans';
@@ -84,6 +95,9 @@ color: #525252;
     margin: 0;
     margin-left: 10px;
     margin-top: -3px;
+}
+.sharebtntext{
+    display: none;
 }
 .date{
     font-family: 'IBM Plex Sans';
@@ -159,3 +173,72 @@ text-align: center !important;
 
 color: #E56135;
 }
+@media ( max-width:576px ) { 
+    .sharebtn{
+        display: none;
+    }
+    .share{
+        display: none !important;
+    }
+
+    .sharebtntext{
+        height: 30px !important;
+    width: 60px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: -3px;
+    border-radius: 6px;
+    display: block !important;
+    }
+    .sharetext{
+      display: block !important;
+    margin-top: 18px;
+   
+    }
+    .card {
+       
+        width: 360px;
+    height: 100%;
+    left: 0px;
+  
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+       
+    }
+    .applybtn{
+        width: 650px;
+    height: 36px;
+    left: 222px;
+    top: 2243px;
+    
+    background: #FFFFFF;
+    border: 0.7px dashed #A9AEB8;
+    border-radius: 10px;
+    }
+    .btn_text{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 225.4%;
+    
+    
+    text-align: center !important;
+    
+    color: #02B875;
+    }
+    .applybtn{
+      width: 328px;
+height: 34px;
+left: 16px;
+top: 1240px;
+
+background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+border-radius: 8px;
+    }
+    
+ }

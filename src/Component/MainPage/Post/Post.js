@@ -7,6 +7,8 @@ import Card from 'react-bootstrap/Card';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Dropdown from 'react-bootstrap/Dropdown';
 import cloudyForest from "../../../images/Rectangle 5.png"
+import car from "../../../images/Rectangle 5 car.png"
+import gate from "../../../images/Rectangle 5.1.png"
 import pro1 from "../../../images/pro1.png"
 import pro2 from "../../../images/pro2.png"
 import pro3 from "../../../images/pro3.png"
@@ -46,15 +48,19 @@ const Post = () => {
 }}  alt="Avatar" />
           <h5 className='name'>Sarthak Kamra</h5>
          </div>
-         <div className="share d-flex">
+         <div className="share d-flex  ">
                   <AiOutlineEye className='eye'></AiOutlineEye>
-                  <p className='like'>1.4k views</p>
-                 <button className='sharebtn'> <AiOutlineShareAlt></AiOutlineShareAlt></button>
+                  <p className='like '>1.4k views</p>
+                 <button className='sharebtn '> <AiOutlineShareAlt></AiOutlineShareAlt></button>
+         </div>
+         <div className="sharetext ">
+               
+                 <button className='sharebtntext   '> <AiOutlineShareAlt></AiOutlineShareAlt>share</button>
          </div>
         </Card.Footer>
       </Card>
-      <Card >
-        <Card.Img variant="top" src={cloudyForest} />
+      <Card  >
+      <Card.Img variant="top" src={car} />
         <Card.Body>
           <Card.Title className='tag'>🔬️ Education</Card.Title>
           <div className='d-flex justify-content-between'>
@@ -73,15 +79,20 @@ const Post = () => {
 }}  alt="Avatar" />
           <h5 className='name'>Sarah West</h5>
          </div>
-         <div className="share d-flex">
+         <div className="share d-flex  ">
                   <AiOutlineEye className='eye'></AiOutlineEye>
-                  <p className='like'>1.4k views</p>
-                 <button className='sharebtn'> <AiOutlineShareAlt></AiOutlineShareAlt></button>
+                  <p className='like '>1.4k views</p>
+                 <button className='sharebtn '> <AiOutlineShareAlt></AiOutlineShareAlt></button>
+         </div>
+         <div className="sharetext ">
+               
+                 <button className='sharebtntext   '> <AiOutlineShareAlt></AiOutlineShareAlt>share</button>
          </div>
         </Card.Footer>
       </Card>
       <Card >
-        <Card.Img variant="top" src={cloudyForest} />
+       
+        <Card.Img variant="top" src={gate} />
         <Card.Body>
           <Card.Title className='tag'>🗓️ Meetup</Card.Title>
          <div className='d-flex justify-content-between'>
@@ -113,21 +124,29 @@ const Post = () => {
 }}  alt="Avatar" />
           <h5 className='name'>Ronal Jones</h5>
          </div>
-         <div className="share d-flex">
+         <div className="share d-flex  ">
                   <AiOutlineEye className='eye'></AiOutlineEye>
-                  <p className='like'>1.4k views</p>
-                 <button className='sharebtn'> <AiOutlineShareAlt></AiOutlineShareAlt></button>
+                  <p className='like '>1.4k views</p>
+                 <button className='sharebtn '> <AiOutlineShareAlt></AiOutlineShareAlt></button>
+         </div>
+         <div className="sharetext ">
+               
+                 <button className='sharebtntext   '> <AiOutlineShareAlt></AiOutlineShareAlt>share</button>
          </div>
          
         </Card.Footer>
       </Card>
       <Card >
-        <Card.Img variant="top" src={cloudyForest} />
+      
         <Card.Body>
           <Card.Title className='tag'>💼️ Job</Card.Title>
-          <Card.Text className='question'>
-          Software Developer
+         
+          <div className='d-flex justify-content-between'>
+         <Card.Text className='question'>
+         Software Developer
           </Card.Text>
+          <FiMoreVertical></FiMoreVertical>
+         </div>
           <div className='d-flex '>
             <div className="date">
                 <p>Innovaccer Analytics Private Ltd.</p>
@@ -144,10 +163,14 @@ const Post = () => {
 }}  alt="Avatar" />
           <h5 className='name'>Joseph Gray</h5>
          </div>
-         <div className="share d-flex">
+         <div className="share d-flex  ">
                   <AiOutlineEye className='eye'></AiOutlineEye>
-                  <p className='like'>1.4k views</p>
-                 <button className='sharebtn'> <AiOutlineShareAlt></AiOutlineShareAlt></button>
+                  <p className='like '>1.4k views</p>
+                 <button className='sharebtn '> <AiOutlineShareAlt></AiOutlineShareAlt></button>
+         </div>
+         <div className="sharetext ">
+               
+                 <button className='sharebtntext   '> <AiOutlineShareAlt></AiOutlineShareAlt>share</button>
          </div>
         </Card.Footer>
       </Card>

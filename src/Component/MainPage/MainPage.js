@@ -12,7 +12,7 @@ const MainPage = () => {
       <img  src={computer} class="d-block w-100 image" alt="..."/>
       <div className='text-part'>
                         <h2>Computer Engineering</h2>
-                        <p style={{fontSize:"18px"} }>142,765 Computer Engineers follow this</p>
+                        <p >142,765 Computer Engineers follow this</p>
                     </div>
     </div>
     
